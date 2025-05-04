@@ -568,3 +568,6 @@ if __name__ == "__main__":
     if sys.stdout is not None:
         sys.stdout.reconfigure(encoding='utf-8')
     show_login_window()
+if __name__ == '__main__':
+    from waitress import serve  # hoặc dùng app.run(debug=True) khi chạy local
+    serve(app, host='0.0.0.0', port=10000)
