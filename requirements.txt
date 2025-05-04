@@ -1,0 +1,13 @@
+flask
+opencv-python-headless
+face-recognition
+numpy
+Pillow
+gTTS
+sendgrid
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+google-api-python-client
+oauth2client
+python-dotenv
